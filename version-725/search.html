@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+        <html lang="zh-CN">
+        <head>
+        <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://vercelcn.com/ads-widget.js"></script>
+<title>影片搜索-高清国产电影</title>
+<meta name="description" content="高清国产电影搜索页，支持按影片名、类型、年份、地区和标签查找在线播放内容。">
+<meta name="keywords" content="高清国产电影,国产影片,电影精选库,在线播放,国产电影,高清电影,电影分类,影片搜索,电影搜索">
+<link rel="stylesheet" href="./assets/site.css">
+        </head>
+        <body>
+        <header class="site-header">
+    <div class="wrap header-inner">
+        <a class="logo" href="./index.html" aria-label="高清国产电影">
+            <span class="logo-mark">▶</span>
+            <span>高清国产电影</span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a class="nav-link" href="./index.html">首页</a>
+            <a class="nav-link" href="./categories.html">分类</a>
+            <a class="nav-link" href="./ranking.html">热播榜</a>
+            <a class="nav-link active" href="./search.html">搜索</a>
+        </nav>
+        <form class="header-search" action="./search.html" method="get" data-header-search>
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="menu-toggle" type="button" aria-label="打开导航" data-menu-toggle>☰</button>
+    </div>
+    <div class="mobile-nav" data-mobile-nav>
+        <a class="mobile-nav-link" href="./index.html">首页</a>
+        <a class="mobile-nav-link" href="./categories.html">分类</a>
+        <a class="mobile-nav-link" href="./ranking.html">热播榜</a>
+        <a class="mobile-nav-link active" href="./search.html">搜索</a>
+        <form class="mobile-search" action="./search.html" method="get" data-header-search>
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+    </div>
+</header>
+        <main class="page-main search-page" data-search-page>
+    <section class="wrap page-hero slim-hero">
+        <p class="eyebrow">Search</p>
+        <h1>影片搜索</h1>
+        <p>输入片名、年份、地区、类型或标签，快速查找可在线播放的影片详情。</p>
+    </section>
+    <section class="wrap search-panel">
+        <form class="search-large" action="./search.html" method="get" data-page-search>
+            <input type="search" name="q" placeholder="搜索影片、标签、年份或地区" autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <div class="search-results movie-grid" data-search-results></div>
+        <p class="empty-state" data-search-empty>没有找到匹配的影片</p>
+    </section>
+</main>
+        <footer class="site-footer">
+    <div class="wrap footer-grid">
+        <div>
+            <a class="footer-logo" href="./index.html">
+                <span class="logo-mark">▶</span>
+                <span>高清国产电影</span>
+            </a>
+            <p>聚合高清国产电影与国产影片内容，涵盖剧情、喜剧、悬疑等类型，便于分类浏览。</p>
+        </div>
+        <div>
+            <h2>分类频道</h2>
+            <div class="footer-links">
+            <a href="./category-domestic.html">国产精选</a>
+            <a href="./category-series.html">剧集频道</a>
+            <a href="./category-drama.html">剧情精选</a>
+            <a href="./category-suspense.html">悬疑惊悚</a>
+            <a href="./category-comedy.html">喜剧轻松</a>
+            <a href="./category-love-family.html">爱情家庭</a>
+            </div>
+        </div>
+        <div>
+            <h2>内容导航</h2>
+            <div class="footer-links">
+                <a href="./categories.html">全部分类</a>
+                <a href="./ranking.html">热播榜</a>
+                <a href="./search.html">影片搜索</a>
+            </div>
+        </div>
+    </div>
+    <div class="wrap footer-bottom">
+        <p>© 2026 高清国产电影 · 高清电影在线播放</p>
+    </div>
+</footer>
+        <script src="./assets/search-index.js"></script>
+        <script src="./assets/site.js"></script>
+        <script>
+var _hmt = _hmt || [];
+(function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+})();
+</script>
+        </body>
+        </html>

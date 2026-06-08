@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>搜索-国产电视剧视频免费在线观看</title>
+  <meta name="description" content="围绕国产电视剧提供视频免费在线观看服务，包含高清电视剧大全与热播剧内容，支持在线播放与分类检索，方便查找剧集。" />
+  <meta name="keywords" content="国产电视剧视频免费在线观看：高清电视剧大全与热播剧-国产好剧推荐,国产,视频,免费,在线观看,高清,影视大全" />
+  <link rel="stylesheet" href="./assets/site.css" />
+  
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="./index.html" aria-label="国产电视剧视频免费在线观看">
+      <span class="brand-mark">剧</span>
+      <span class="brand-text">
+        <strong>国产电视剧视频免费在线观看</strong>
+        <em>高清剧集大全与热播剧</em>
+      </span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link" href="./index.html">首页</a><a class="nav-link" href="./categories.html">影视分类</a><a class="nav-link" href="./rankings.html">热播榜单</a><a class="nav-link is-active" href="./search.html">搜索</a>
+      <div class="nav-dropdown">
+        <button type="button" class="nav-link dropdown-toggle">题材入口</button>
+        <div class="dropdown-menu">
+          <a href="./category-cn-drama.html">国产热播</a><a href="./category-urban-romance.html">都市爱情</a><a href="./category-costume-history.html">古装历史</a><a href="./category-action-crime.html">动作警匪</a><a href="./category-suspense-thriller.html">悬疑惊悚</a><a href="./category-sci-fi-fantasy.html">科幻奇幻</a><a href="./category-comedy-life.html">喜剧生活</a><a href="./category-animation-youth.html">动画青春</a>
+        </div>
+      </div>
+    </nav>
+    <form class="top-search" action="./search.html" method="get" role="search">
+      <input type="search" name="q" class="site-search-input" autocomplete="off" placeholder="搜索影视..." aria-label="搜索影视" />
+      <button type="submit" aria-label="搜索">搜索</button>
+      <div class="search-suggest" aria-live="polite"></div>
+    </form>
+    <button class="mobile-menu-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <div class="mobile-menu">
+    <form class="mobile-search" action="./search.html" method="get" role="search">
+      <input type="search" name="q" class="site-search-input" autocomplete="off" placeholder="搜索影片、题材、年份" aria-label="搜索影片" />
+      <button type="submit">搜索</button>
+      <div class="search-suggest" aria-live="polite"></div>
+    </form>
+    <nav aria-label="移动端导航">
+      <a class="mobile-link" href="./index.html">首页</a><a class="mobile-link" href="./categories.html">影视分类</a><a class="mobile-link" href="./rankings.html">热播榜单</a><a class="mobile-link is-active" href="./search.html">搜索</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">搜索影片</p>
+      <h1>搜索国产电视剧与高清影视</h1>
+      <p>支持按片名、题材、地区、年份进行检索，快速进入详情页播放。</p>
+      <form class="search-page-form" action="./search.html" method="get" role="search">
+        <input type="search" name="q" id="searchPageInput" autocomplete="off" placeholder="输入想看的影片" aria-label="搜索影片" />
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+  </section>
+  <section class="section-block">
+    <div class="container">
+      <div id="searchResultTitle" class="search-result-title">热门推荐</div>
+      <div id="searchResults" class="movie-grid"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-brand">
+        <span class="brand-mark">剧</span>
+        <strong>国产电视剧视频免费在线观看</strong>
+      </div>
+      <p>围绕国产电视剧提供视频免费在线观看服务，包含高清电视剧大全与热播剧内容，支持在线播放与分类检索，方便查找剧集。</p>
+    </div>
+    <div>
+      <h2>快速入口</h2>
+      <div class="footer-links">
+        <a href="./index.html">首页</a>
+        <a href="./categories.html">分类</a>
+        <a href="./rankings.html">榜单</a>
+        <a href="./search.html">搜索</a>
+      </div>
+    </div>
+    <div>
+      <h2>热门题材</h2>
+      <div class="footer-links">
+        <a href="./category-cn-drama.html">国产热播</a><a href="./category-urban-romance.html">都市爱情</a><a href="./category-costume-history.html">古装历史</a><a href="./category-action-crime.html">动作警匪</a><a href="./category-suspense-thriller.html">悬疑惊悚</a><a href="./category-sci-fi-fantasy.html">科幻奇幻</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 国产电视剧视频免费在线观看 · 高清热播剧集推荐</div>
+</footer>
+<script src="./assets/search-index.js"></script>
+<script src="./assets/app.js"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
